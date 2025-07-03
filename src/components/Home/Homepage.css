@@ -1,0 +1,190 @@
+.homepage-container h2 {
+  text-align: center;
+  color: #f3f9fd;
+}
+
+.video-table th,
+.video-table td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  vertical-align: top;
+  background-color: rgb(252, 252, 252);
+}
+
+.video-table th {
+  background-color: #50c2ec;
+  text-align: left;
+}
+
+.video-table tr:last-child td {
+  border-bottom: none;
+}
+
+.video-table input {
+  width: 100%;
+  padding: 6px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.video-table td > div,
+.video-table td > span {
+  display: block;
+  font-size: 14px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+
+.video-table .quill {
+  width: 100%;
+}
+
+.video-table .ql-container {
+  font-size: 14px;
+  height: 150px;
+  overflow-y: auto;
+  border-radius: 6px;
+}
+
+.video-table .ql-toolbar {
+  border-radius: 6px 6px 0 0;
+}
+
+.video-table .ql-container.ql-snow {
+  border-radius: 0 0 6px 6px;
+}
+
+
+button {
+  margin: 5px 3px;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+.video-table th:nth-child(1),
+.video-table td:nth-child(1) {
+  width: 20%;
+}
+
+.video-table th:nth-child(2),
+.video-table td:nth-child(2) {
+  width: 40%; 
+}
+
+.video-table th:nth-child(3),
+.video-table td:nth-child(3),
+.video-table th:nth-child(4),
+.video-table td:nth-child(4) {
+  width: 15%; 
+}
+
+.video-table th:nth-child(5),
+.video-table td:nth-child(5) {
+  width: 10%; 
+}
+
+.video-table td input,
+.video-table td .ql-container,
+.video-table td span,
+.video-table td div {
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.video-table .title-quill .ql-toolbar {
+  display: none !important; 
+}
+
+.video-table .title-quill .ql-container {
+  height: 50px; 
+  font-size: 14px;
+  border-radius: 6px;
+  overflow-y: auto;
+}
+
+.video-table .title-quill .ql-editor {
+  min-height: 40px;
+  padding: 6px 12px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+
+body, html, #root {
+  height: 100%;
+  margin: 0;
+}
+
+.homepage-container {
+  min-height: 100vh;
+  padding: 20px;
+  background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1950&q=80');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.homepage-container::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: -1;
+}
+
+
+.video-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  table-layout: fixed;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #000;
+}
+
+.font-size{
+  font-size: 14px;
+  color: #000;
+}
+
+.pagination-controls {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+.pagination-controls button {
+  padding: 6px 12px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.pagination{
+  margin-top: 0.4rem;
+}
+
+
+
+
