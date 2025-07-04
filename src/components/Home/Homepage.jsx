@@ -7,7 +7,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import './Homepage.css';
 
-const API_URL = 'https://localhost:44314/api/videos';
+const API_URL = 'https://ingressappapi-badxa9cxdqambjhz.centralus-01.azurewebsites.net/api/videos';
 
 export default function HomepageVideos() {
   const queryClient = useQueryClient();
